@@ -3,11 +3,10 @@
 // Production-ready database config
 
 // Load environment variables (jika menggunakan hosting yang support .env)
-$host = $_ENV['DB_HOST'] ?? 'localhost';
-$dbname = $_ENV['DB_NAME'] ?? 'tvri_equipment';
-$username = $_ENV['DB_USER'] ?? 'root';
-$password = $_ENV['DB_PASS'] ?? '';
-
+$host = $_ENV['DB_HOST'] ?? 'sql106.infinityfree.com';
+$dbname = $_ENV['DB_NAME'] ?? 'if0_39649134';
+$username = $_ENV['DB_USER'] ?? 'if0_39649134_tvri';
+$password = $_ENV['DB_PASS'] ?? 'K3onGLambat';
 // Fallback untuk development
 if (file_exists('../.env')) {
     $env = parse_ini_file('../.env');

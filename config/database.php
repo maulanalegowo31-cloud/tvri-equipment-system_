@@ -6,7 +6,7 @@
 $host = $_ENV['DB_HOST'] ?? 'localhost';
 $dbname = $_ENV['DB_NAME'] ?? 'tvri_equipment';
 $username = $_ENV['DB_USER'] ?? 'root';
-$password = $_ENV['DB_PASS'] ?? '123456';
+$password = $_ENV['DB_PASS'] ?? '';
 
 // Fallback untuk development
 if (file_exists('../.env')) {
